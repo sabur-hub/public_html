@@ -1,0 +1,143 @@
+body {
+    font-family: cursive;
+    font-size: 18px;
+    color: #333;
+    background: black;
+}
+
+#clearHistoryButton {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#clearHistoryButton:hover {
+    background-color: #ff4444;
+}
+
+#submit {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #ff4444;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: #cccccc;
+}
+
+main {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    color: #cccccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: black;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: #cccccc;
+}
+
+p {
+    color: aliceblue;
+}
+
+label {
+    color: aliceblue;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+#result {
+    font-weight: bold;
+    color: #cccccc;
+}
+
+#time, #executionTime {
+    font-style: italic;
+    color: #cccccc;
+}
+
+.form-container {
+    width: 50%;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 85%;
+    height: auto;
+    transform: scale(0.85);
+}
+
+#graph {
+    border: 1px solid #000;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.history-table {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-content {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.center-content img {
+    max-width: 100%;
+    height: auto;
+}
